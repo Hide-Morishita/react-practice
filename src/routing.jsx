@@ -11,7 +11,7 @@ export default class Routing extends React.Component {
   render() {
     return (
       <BrowserRouter>
-        <Route exapt path="/" component={Home} />
+        <Route exact path="/" component={Home} />
         <Route path="/rsp" component={Rsp} />
       </BrowserRouter>
     );
